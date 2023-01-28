@@ -10,6 +10,7 @@ include_once __DIR__.'\vendor\autoload.php';
 // });
 
 $student = new Students();
+$student2 = new Students();
 $student->name = 'Shasa';
 echo $student->name;
 echo $student->getFullName().PHP_EOL;
